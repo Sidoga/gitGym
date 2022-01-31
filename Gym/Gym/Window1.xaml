@@ -1,0 +1,23 @@
+﻿<Window x:Class="Gym.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gym"
+        mc:Ignorable="d"
+        Title="Добавление" Height="285.169" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Добавление клиента" VerticalAlignment="Top" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="9,38,0,0" TextWrapping="Wrap" Text="Фамилия: " VerticalAlignment="Top" FontSize="25"/>
+        <TextBox Name="a1" HorizontalAlignment="Left" Height="33" Margin="130,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"  FontSize="20" Width="654"/>
+        <TextBlock HorizontalAlignment="Left" Margin="9,77,0,0" TextWrapping="Wrap" Text="Имя: " VerticalAlignment="Top" FontSize="25"/>
+        <TextBox Name="a2" HorizontalAlignment="Left" Height="33" Margin="130,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"  FontSize="20" Width="654"/>
+        <TextBlock HorizontalAlignment="Left" Margin="9,115,0,0" TextWrapping="Wrap" Text="Отчество: " VerticalAlignment="Top" FontSize="25"/>
+        <TextBox Name="a3" HorizontalAlignment="Left" Height="33" Margin="130,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"  FontSize="20" Width="654"/>
+        <TextBlock HorizontalAlignment="Left" Margin="6,153,0,0" TextWrapping="Wrap" Text="Тренер: " VerticalAlignment="Top" FontSize="25"/>
+        <ComboBox Name="a4" HorizontalAlignment="Left" Margin="130,154,0,0" VerticalAlignment="Top" Width="654" Height="32"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="400" Margin="384,191,0,0" FontSize="25" Height="43" Click="Button_Click"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" VerticalAlignment="Top" Width="373" Margin="6,191,0,0" FontSize="25" Height="43" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
